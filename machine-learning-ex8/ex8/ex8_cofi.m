@@ -130,20 +130,22 @@ my_ratings = zeros(1682, 1);
 % For example, Toy Story (1995) has ID 1, so to rate it "4", you can set
 my_ratings(1) = 4;
 
-% Or suppose did not enjoy Silence of the Lambs (1991), you can set
-my_ratings(98) = 2;
+% Or suppose we DID enjoy Silence of the Lambs (1991), you can set
+my_ratings(98) = 5;
 
 % We have selected a few movies we liked / did not like and the ratings we
 % gave are as follows:
-my_ratings(7) = 3;
-my_ratings(12)= 5;
-my_ratings(54) = 4;
+my_ratings(50) = 4;
 my_ratings(64)= 5;
-my_ratings(66)= 3;
-my_ratings(69) = 5;
-my_ratings(183) = 4;
-my_ratings(226) = 5;
-my_ratings(355)= 5;
+my_ratings(65)= 3;
+my_ratings(69)= 5;
+my_ratings(71)= 4;
+my_ratings(83) = 4;
+my_ratings(89) = 5;
+my_ratings(177) = 5;
+my_ratings(183)= 5;
+my_ratings(201) = 4;
+my_ratings(222) = 4;
 
 fprintf('\n\nNew user ratings:\n');
 for i = 1:length(my_ratings)
